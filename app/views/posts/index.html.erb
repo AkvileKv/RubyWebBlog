@@ -1,15 +1,19 @@
 <% content_for :page_title,  "Don't keep your secrets, share them anonymously!" %>
-
+<%# Don't keep your secrets, share them anonymously! %>
 <div class="section">
   <div class="container">
+
+<%# isveda visus irasus ok%>
     <% @posts.each do |post| %>
       <div class="card">
         <div class="card-content">
+        
           <div class="media">
             <div class="media-content">
               <p class="title is-4"><%= link_to post.title, post  %></p>
             </div>
           </div>
+
           <div class="content">
             <%= post.content %>
           </div>
@@ -19,5 +23,13 @@
         </div>
       </div>
     <% end %>
+
   </div>
 </div>
+<footer class="footer">
+  <div class="content has-text-centered">
+    <p>
+      2020 &copy; Akvile Kvietkauskaite
+    </p>
+  </div>
+</footer>
