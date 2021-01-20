@@ -1,24 +1,14 @@
-# README
+# SecretsBlog
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+SecretsBlog is an anonymous secrets sharing blog. It uses LocalStorage to save all the records that are created and allows you to edit or delete them.
 
-Things you may want to cover:
+## Features
+* View all posts
+* Create new post
+* Edit existing post
+* Delete post
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Built With
+* Ruby version - 2.7.2
+* Rails version - 6.0.3
+* Database sqlite3 version - 1.4
